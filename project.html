@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <script src="https://kit.fontawesome.com/6dff518137.js" crossorigin="anonymous"></script>
+    <style>
+        /* Projects */
+        * {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.sub-tittle {
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.sub-tittle u {
+    border-bottom: 2px solid #c71a44;
+    text-decoration: none;
+}
+body {
+    background-color: black;
+    color: white;
+
+}
+.container {
+    padding: 10px 10%;
+}
+.btn-hire {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrape;
+    border: 1px solid #c71a44;
+    /* border: none; */
+    transition: all 0.5s ease;
+    background: #c71a44;
+    text-decoration: none;
+}
+
+.btn-hire:hover {
+    transform: scale(1.05);
+    background: #000;
+}
+
+
+#portfolio {
+    padding: 50px 0;
+
+
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    height: 500px;
+    transition: transform 0.5s;
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #c71a44);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layer h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.layer a {
+    margin-top: 20px;
+    color: #c71a44;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.work:hover img {
+    transform: scale(1.1);
+}
+
+.work:hover .layer {
+    height: 100%;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #c71a44;
+    padding: 14px 50px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+    background: #c71a44;
+    transition: all 0.5s ease;
+    white-space: nowrape;
+}
+
+.btn:hover {
+    background: #000;
+    transform: scale(1.05);
+}
+
+/* Projects End */
+    </style>
+</head>
+<body>
+    <div id="portfolio">
+
+        <div class="container">
+            <h2 class="sub-tittle"><u>My Work</u></h2>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/Stop.jpeg">
+                    <div class="layer">
+                        <h3>Stopwatch</h3>
+                        <p>This is Responsive Stopwatch web app.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/tic.jpeg">
+                    <div class="layer">
+                        <h3>Tic-Tac-Toe</h3>
+                        <p>This is Responsive Tic-Tac-Toe web app.</p>
+                        <a href="https://10sucheta.github.io/PRODIGY_WD_03/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/TO-DO.jpeg">
+                    <div class="layer">
+                        <h3>TO-DO web app</h3>
+                        <p>This is Responsive TO-DO web app.</p>
+                        <a href="https://10sucheta.github.io/OIBSIP_03/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+   <div class="work">
+                    <img src="images/cal.jpeg">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>This is Responsive Calculator.</p>
+                        <a href="https://10sucheta.github.io/OIBSIP_03/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/Tribute.jpeg">
+                    <div class="layer">
+                        <h3>Tribute Page</h3>
+                        <p>This is Responsive Tribute Page.</p>
+                        <a href="https://10sucheta.github.io/OIBSIP_03/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/TO-DO.jpeg">
+                    <div class="layer">
+                        <h3>Weather Webapp</h3>
+                        <p>This is Responsive Weather Webapp.</p>
+                        <a href="https://10sucheta.github.io/OIBSIP_03/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/TO-DO.jpeg">
+                    <div class="layer">
+                        <h3>Login Authentication</h3>
+                        <p>This is Responsive Login Authentication.</p>
+                        <a href="https://10sucheta.github.io/OIBSIP_03/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/res.jpeg">
+                    <div class="layer">
+                        <h3>Responsive Landing Page</h3>
+                        <p>This is Responsive Landing Page.</p>
+                        <a href="https://10sucheta.github.io/OIBSIP_03/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+               
+
+
+
+
+
+
+                
+
+            </div>
+            <a href="index.html" class="btn hire-me">Go Back</a>
+        </div>
+    </div>
+
+</body>
+</html>

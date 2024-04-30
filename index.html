@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6dff518137.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main class="sucheta">
+        <!-- Header -->
+
+        <header id="header" class="header">
+            <h3>Portfolio.</h3>
+
+
+            <!-- Navbar -->
+
+            <nav id="nav-bar" class="nav">
+                <ul class="nav-list">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">My Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                    <!-- <i class="fa-solid fa-x"></i> -->
+                </ul>
+                <!-- <i class="fa-solid fa-bars"></i> -->
+            </nav>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+        </header>
+
+        <!-- Header & Navbar End -->
+
+        <!-- Home -->
+
+        <section id="Home">
+            <section class="home section">
+                <div class="container1">
+                    <div class="row1">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, My name is <span class="name"><span>Sucheta</span>
+                                    <span>Chanda</span></span></h3>
+                            <br>
+                            <h3 class="my-profession">I'm a <span class="typing"><span>Web Developer</span></span></h3>
+                            <br>
+                            <p>Passionate BCA student and web development intern with expertise in HTML, CSS,
+                                JavaScript,
+                                React, Bootstrap, Node.js, and many more...</p>
+                            <a href="#About" class="btn hire-me">More About Me</a>
+                            <a href="#contact" class="btn-hire">Hire Me</a>
+
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="images/1st.png" alt="">
+                        </div>
+
+
+                    </div>
+            </section>
+            <div class="home-info1 padd-15">
+                <h3 class="hello">Hello, My name is <span class="name"><span>Sucheta</span>
+                        <span>Chanda</span></span></h3>
+                <br>
+                <h3 class="my-profession">I'm a <span class="typing"><span>Web Developer</span></span></h3>
+                <br>
+                <p>Passionate BCA student and web development intern with expertise in HTML, CSS,
+                    JavaScript,
+                    React, Bootstrap, Node.js, and many more...</p>
+                <a href="#About" class="btn-hire1">More About Me</a>
+                <a href="#contact" class="btn-hire2">Hire Me</a>
+
+            </div>
+        </section>
+
+        <!-- Home End -->
+
+        <!-- About -->
+
+        <div id="About">
+            <div class="container">
+
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/main2.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="sub-tittle"><u>About Me</u></h2>
+                        <p>My name is Sucheta Chanda.I am a 20-year-old web developer intern from Kolkata, West Bengal,
+                            India. Currently, I am
+                            pursuing my BCA 2nd year from Future Institute of Engineering and Management. I have a
+                            strong passion for web development and I'm fortunate to be working as a web development
+                            intern, where I can apply my skills and knowledge in a practical setting.
+                            <br>
+                            <br>
+                            I really enjoy solving problems as well as making things pretty and easy to use. I can't
+                            stop
+                            learning new things,the more, the better. My hobbies include coding, dancing and
+                            traveling.These are not just hobbies for me,they are my passions that drive me to explore
+                            and create endlessly.
+                            <br>
+                            <br>
+                            For the Frontend I usually work with HTML,Javascript, either standalone or including popular
+                            frameworks like ReactJS. I also make the web pretty by using CSS and whenever
+                            needed,Bootstrap.
+                            <br>
+                            For the Backend I also work with Javascript (NodeJS, Express, MongoDB, etc).
+                            <br>
+                            <br>
+                            Outside of academics and work, I enjoy exploring new technologies and experimenting with
+                            different web development tools and frameworks.I'm passionate about staying up-to-date with
+                            the
+                            latest technologies in web development.
+
+                        </p>
+
+                        <!-- 5 section -->
+
+                        <div class="tab-tittles">
+                            <p class="tab-links active-link" onclick="opentab('Personal')">Personal Information</p>
+                            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                            <p class="tab-links" onclick="opentab('Certification')">Certifications</p>
+                        </div>
+
+                        <!-- Personal -->
+
+                        <div class="tab-contents active-tab" id="Personal">
+                            <section class="personal-info">
+                                <div class="left-column">
+                                    <div class="info-item">
+                                        <div class="label">Name:</div>
+                                        <div class="value">Sucheta Chanda</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="label">Birthday:</div>
+                                        <div class="value">10 March 2004</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="label">Age:</div>
+                                        <div class="value">20</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="label">Status:</div>
+                                        <div class="value">Single</div>
+                                    </div>
+                                </div>
+                                <div class="right-column">
+                                    <div class="info-item">
+                                        <div class="label">Email:</div>
+                                        <div class="value">suchetachanda3@gmail.com</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="label">City:</div>
+                                        <div class="value">Kolkata</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="label">Phone:</div>
+                                        <div class="value">+919330547884</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="label">Degree:</div>
+                                        <div class="value">BCA</div>
+                                    </div>
+                                </div>
+                            </section>
+
+
+
+                        </div>
+
+                        <!-- Personal End -->
+
+                        <!-- Skill -->
+
+                        <div class="tab-contents" id="skills">
+
+                            <section class="skills">
+                                <div class="left-column">
+                                    <h2>Programming Languages:</h2>
+                                    <br>
+                                    <div class="skill">
+                                        <div class="skill-name">HTML</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 90%;">Expert</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-name">CSS</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 80%;">Advanced</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-name">JavaScript</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 42%;"> Intermediate</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-name">Python</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 40%;"> Beginner</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-name">Java</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 52%;"> Intermediate</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-name">C</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 49%;"> Intermediate</div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <h2>Web Development Technologies:</h2>
+                                    <br>
+                                    <div class="skill">
+                                        <div class="skill-name">React</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 40%;">Beginner</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-name">Bootstrap</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 40%;">Beginner</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-name">Node.js</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 30%;">Beginner</div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <h2>Database Management and Algorithms:</h2>
+                                    <br>
+                                    <div class="skill">
+                                        <div class="skill-name">Database Management Systems</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 56%;">Intermediate</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-name">Data Structures and Algorithms</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 50%;">Intermediate</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-column">
+                                    <h2>Design:</h2>
+                                    <br>
+                                    <div class="skill">
+                                        <div class="skill-name">Responsive Design</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 80%;">Advanced</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-name">UI/UX Design</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 60%;"> Intermediate</div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <h2>Language:</h2>
+                                    <br>
+                                    <div class="skill">
+                                        <div class="skill-name">English</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 60%;">Proficient</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-name">Hindi</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 70%;">Fluent</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-name">Bengali</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 100%;">Native</div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <h2>Other Skills:</h2>
+                                    <br>
+                                    <div class="skill">
+                                        <div class="skill-name">Problem Solving</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 60%;">Intermediate Problem Solver
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-name">Collaboration</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 80%;">Advanced Collaborator</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-name">Continuous Learning</div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="--width: 90%;">Expert Learner</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                        </div>
+
+                        <!-- Skill End -->
+
+                        <!-- Experience -->
+
+                        <div class="tab-contents" id="Experience">
+                            <section class="experience">
+                                <h2>Web Development Intern at Prodigy Infotech</h2>
+                                <br>
+                                <div class="experience-item">
+
+                                    <p class="experience-date">April 2024 - May 2024
+                                        <br>
+                                        <br>
+                                        As a Web Development Intern, I worked on various frontend projects using HTML,
+                                        CSS,
+                                        and JavaScript. My responsibilities included collaborating with the design team
+                                        to
+                                        implement user interfaces, optimizing web pages for performance and
+                                        responsiveness,
+                                        and troubleshooting issues across different browsers. I gained hands-on
+                                        experience
+                                        in creating interactive and visually appealing web pages, enhancing my skills in
+                                        frontend development and problem-solving.
+                                    </p>
+                                </div>
+
+                            </section>
+
+                        </div>
+
+                        <!-- Experience End -->
+
+                        <!-- Education -->
+
+                        <div class="tab-contents" id="Education">
+
+                            <h3><u>Graduation</u></h3>
+                            <p><strong>Course:</strong> Bachelor of Computer Application (BCA)
+                                <br>
+                                <br>
+                                <strong>College:</strong> Future Institute of Engineering and Management, Under Maulana
+                                Abul
+                                kalam Azad university
+                                <br>
+                                <br>
+                                <strong>Enrollment:</strong> 2022-2025
+                            </p>
+
+                            <h3><u>Higher Secondary</u></h3>
+                            <p>
+                                <strong>School:</strong> Sonarpur Vidyapith, Under West Bengal Government Board
+                                <br>
+                                <br>
+                                <strong>Enrollment:</strong> 2020-2022
+                            </p>
+
+                            <h3><u>Secondary</u></h3>
+                            <p>
+                                <strong>School:</strong> Sishu Niketan High School, Under West Bengal Government Board
+                                <br>
+                                <br>
+                                <strong>Year of Passing:</strong> 2020
+                            </p>
+                        </div>
+
+                        <!-- Education End -->
+
+                        <!-- Certification -->
+
+                        <div class="tab-contents" id="Certification">
+                            <section class="certifications">
+                                <div class="certification-item">
+                                    <h2>Internship Certificate</h2>
+                                    <p class="certification-date"> Project: NGO System
+                                        <br>
+                                        Duration: 1st July 2023 - 27 January 2024
+                                        <br>
+                                        <br>
+                                        </i><a href="pdf/intern.pdf"><i class="fa-solid fa-file-pdf"></i>View
+                                            Certificate</a>
+
+                                    <div class="certification-item">
+                                        <h2>Industrial Training Certificate</h2>
+                                        <p class="certification-date">Course: MERN Stack Development
+                                            <br>Duration: 1st July 2023 - 27 January 2024
+                                            <br>
+                                            <br>
+                                            </i><a href="pdf/trng.pdf"><i class="fa-solid fa-file-pdf"></i>View
+                                                Certificate</a>
+                                    </div>
+
+                            </section>
+
+                        </div>
+
+                        <!-- Certification End -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- About End -->
+
+        <!-- Services -->
+
+        <div id="services">
+            <div class="container">
+                <h2 class="sub-tittle"><u>My Services</u></h2>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-pen"></i>
+                        <h2>Web Design</h2>
+                        <p>I specialize in creating visually appealing and user-friendly website designs. Using my
+                            creative
+                            skills and understanding of user experience, I craft designs that effectively communicate
+                            your
+                            brand and engage your audience.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Front End</h2>
+                        <p>In frontend development, I excel in using HTML, CSS, and JavaScript to bring designs to life.
+                            I
+                            focus on creating responsive and interactive interfaces that provide a seamless user
+                            experience
+                            across devices.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Backend</h2>
+                        <p>My backend development skills include expertise in Node.js, Express, and MongoDB. I build
+                            robust
+                            backend systems that power websites, ensuring smooth functionality and efficient data
+                            management.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services End -->
+
+        <!-- My Work -->
+
+
+        <div id="portfolio">
+
+            <div class="container">
+                <h2 class="sub-tittle"><u>My Work</u></h2>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/Stop.jpeg">
+                        <div class="layer">
+                            <h3>Stopwatch</h3>
+                            <p>This is Responsive Stopwatch web app.</p>
+                            <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/tic.jpeg">
+                        <div class="layer">
+                            <h3>Tic-Tac-Toe</h3>
+                            <p>This is Responsive Tic-Tac-Toe web app.</p>
+                            <a href="https://10sucheta.github.io/PRODIGY_WD_03/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/TO-DO.jpeg">
+                        <div class="layer">
+                            <h3>TO-DO web app</h3>
+                            <p>This is Responsive TO-DO web app.</p>
+                            <a href="https://10sucheta.github.io/OIBSIP_03/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <a href="project.html" class="btn hire-me">see More</a>
+            </div>
+        </div>
+
+        <!-- My Work End -->
+
+        <!-- Contact -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h2 class="sub-tittle"><u>Contact Me</u></h2>
+                        <p><i class="fa-solid fa-paper-plane"></i> suchetachanda3@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +919330547884</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/sucheta-chanda-96990a2a2/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/10sucheta"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.facebook.com/sucheta.chanda.3?mibextid=zbwkwl"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="https://instagram.com/sucheta.chanda.3"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class  ="btns-below">
+                            <a href="pdf/resume.pdf" download class="btn-download">Downlode Resume</a>
+
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                            <button type="submit" class="btn-hire">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Project made by <a href="https://www.linkedin.com/in/sucheta-chanda-96990a2a2/">Sucheta Chanda</a>:
+                </p>
+            </div>
+        </div>
+
+        <!-- Contact End -->
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
